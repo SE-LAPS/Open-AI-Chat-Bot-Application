@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile</title>
+    <style>
+        /* The device with borders */
+        
+        * {
+            background-image: linear-gradient( 0deg, rgb(230, 136, 14) 23.8%, rgb(240, 34, 195) 85%);
+        }
+        
+        .smartphone {
+            position: relative;
+            width: 405px;
+            height: 750px;
+            margin: auto;
+            border: 16px black solid;
+            border-top-width: 100px;
+            border-bottom-width: 80px;
+            border-radius: 36px;
+        }
+        /* The horizontal line on the top of the device */
+        
+        .smartphone:before {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 5px;
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #333;
+            border-radius: 10px;
+        }
+        /* The circle on the bottom of the device */
+        
+        .smartphone:after {
+            content: '';
+            display: block;
+            width: 55px;
+            height: 55px;
+            position: absolute;
+            left: 50%;
+            bottom: -89px;
+            transform: translate(-50%, -50%);
+            background: rgb(65, 65, 65);
+            border-radius: 50%;
+        }
+        /* The screen (or content) of the device */
+        
+        .smartphone .content {
+            width: 405px;
+            height: 749px;
+            background-image: linear-gradient( 0deg, rgb(230, 136, 14) 23.8%, rgb(240, 34, 195) 76.2%);
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="smartphone">
+        <div class="content">
+            <iframe src="http://127.0.0.1:5501/index.html?question=what+is+the+best+camera+company+in+the+world%3F" style="width:100%;border:none;height:100%" />
+        </div>
+    </div>
+
+    
+</body>
+</html>

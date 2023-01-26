@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 40px;
+  }
+
+  h3{
+    color: aliceblue;
+  }
+  
+  form {
+    margin-top: 30px;
+  }
+
+  .codeshow {
+    color: rgb(137, 0, 96);
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .codeshow a {
+    color: rgb(114, 0, 71);
+    text-decoration: none;
+  }
+
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+  }
+  
+  button {
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #answer {
+    margin-top: 60px;
+    font-size: 48px;
+    text-align: left;
+  }
+  
+  button[type="clear"]{
+    background-color: #d50e00;
+  }
+  
